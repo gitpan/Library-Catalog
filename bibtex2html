@@ -1,0 +1,17 @@
+#!/usr/bin/perl -w -s
+use Library::Catalog::BibTeX;
+
+my $file = shift || die "I need a filename...";
+
+my $obj = Library::Catalog::BibTeX::loadBibTeX($file);
+my @data = map { $obj->toHtml($_); } $obj->getArray();
+
+if ($css) {
+	$css = "<link rel=\"stylesheet\" type=\"text/css\" href=\"$css\">\n";
+} else {
+	$css = "";
+}
+
+print "<html><head>$css</head><body>\n";
+print join("\n",@data);
+print "</body></html>\n";

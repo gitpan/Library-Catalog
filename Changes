@@ -40,3 +40,8 @@ Revision history for Perl extension Library::Catalog.
 0.11  Wed Jul 11 21:16:99 2001
 	- full remodelation from implementation to API
 	- catalog caching
+0.12  ...
+	- Added Library::Catalog::Simple (old ::Catalog)
+	- Added Library::Catalog::News
+	- Added Library::Catalog as a generic class;
+

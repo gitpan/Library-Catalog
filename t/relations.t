@@ -1,7 +1,7 @@
 # -*- cperl -*-
 use Test;
 use Data::Dumper;
-use Library::Catalog;
+use Library::Catalog::Simple;
 
 BEGIN { plan tests => 8 }
 
@@ -78,5 +78,5 @@ if (open F, "/tmp/_${$}_") {
 $cat1->catalogAdd(2,"text");
 ok( not keys %{ $cat1->{toadd}{2}{rels}});
 
-#unlink("/tmp/_${$}_");
+unlink("/tmp/_${$}_");
 

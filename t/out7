@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<news>
+ <meta>
+  <fields>
+   <field>date</field>
+   <field>title</field>
+  </fields>
+ </meta>
+ <data>
+  <new>
+   <date>
+    <day>02</day>
+    <month>02</month>
+    <year>2002</year>
+   </date>
+   <title>20020202</title>
+  </new>
+  <new>
+   <date>
+    <day>02</day>
+    <month>02</month>
+    <year>2004</year>
+   </date>
+   <title>20040202</title>
+  </new>
+ </data>
+</news>

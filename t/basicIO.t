@@ -1,6 +1,6 @@
 # -*- cperl -*-
 use Test;
-use Library::Catalog;
+use Library::Catalog::Simple;
 
 BEGIN { plan tests => 12 }
 

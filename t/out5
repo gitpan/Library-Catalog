@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<news>
+ <meta>
+  <fields>
+   <field>date</field>
+   <field>title</field>
+  </fields>
+ </meta>
+ <data>
+ </data>
+</news>
