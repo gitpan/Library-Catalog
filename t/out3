@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<catalog>
+<entry id="1">
+<title>Me</title>
+ <rels>
+ <rel type="IOF">Test</rel>
+ </rels>
+</entry>
+</catalog>

@@ -1,0 +1,42 @@
+Revision history for Perl extension Library::Catalog.
+
+0.01  Thu Nov  2 11:38:43 2000
+	- original version; created by h2xs 1.19
+
+0.02  Thu Nov  2 20:19:00 2000
+	- imported functions from catalog.pl
+	- functions exporting
+	- POD documentation
+
+0.03  Wed Nov 15 16:03:14 2000
+	- new functions: catalogSearch, catalogRemove
+	- renamed getId to catalogGetId
+
+0.04  Fri Nov 17 12:28:11 2000
+	- new functions: web and shell
+
+0.05  Sat Nov 18 23:15:30 2000
+	- renamed web and shell functions to catalogWeb and catalogShell
+	- catalogWeb with almost all functionalities
+
+0.06  Sun Nov 19 15:12:40 2000
+	- catalogWeb ready
+
+0.07  Sat Nov 25 14:51:10 2000
+	- catalogSetLanguage and catalogLanguages functions
+	- internationalization
+
+0.08  Sat Dec 02 14:36:59 2000
+	- catalogAdd function tests for XML validity
+	- catalogAdd function uses relations
+
+0.09  Sun Dec 31 13:56:29 2000
+	- changed name from 'catalog' to 'Catalog'
+
+0.10  Thu Jan  4 20:46:09 2001
+	- renamed to be included under the Library modules
+	- using Library::MLang for multilingue features
+
+0.11  Wed Jul 11 21:16:99 2001
+	- full remodelation from implementation to API
+	- catalog caching

@@ -1,0 +1,131 @@
+error
+uk: ERROR
+pt: ERRO
+
+adicionado
+uk: Entry added!
+pt: Registo adicionado!
+
+nadicionado
+uk: Entry has an error. Try again!
+pt: Registo contém um erro. Tente de novo!'
+
+adicionar
+uk: Add entry
+pt: Adicionar registo
+
+adicionando
+uk: Adding entry
+pt: A adicionar o registo
+
+ok
+uk: Ok
+pt: Continuar
+
+range
+uk: List interval should be less than $range documents!
+pt: O intervalo para a função de listagem deve ser menor do que $range documentos!
+
+deleteit
+uk: Delete it!
+pt: Apague-o!
+
+deleted
+uk: Entry deleted from catalog. You must remove manually all related files!
+pt: O registo foi apagado. Deve remover manualmente todos os ficheiros relacionados!
+
+add
+uk: Add
+pt: Adicionar
+
+list
+uk: List
+pt: Listar
+
+list_m
+uk: List catalog entries
+pt: Listar registos do catálogo
+
+from
+uk: From entry number:
+pt: Do registo número:
+
+to
+uk: to entry number:
+pt: até ao número:
+
+regexp
+uk: Enter regular expression (Caution!):
+pt: Introduza expressão regular (Cuidado!):
+
+search
+uk: Search
+pt: Procurar
+
+search_m
+uk: Search catalog
+pt: Procurar catálogo
+
+id
+uk: Enter entry id:
+pt: Introduza o identificador do registo:
+
+get
+uk: Get it!
+pt: Trazer!
+
+get_m
+uk: Get catalog entry
+pt: Obter registo do catálogo
+
+del_m
+uk: Delete catalog entry
+pt: Apagar registo do catálogo
+
+fnamew
+uk: You must supply a catalog file name!
+pt: Tem de especificar o nome do ficheiro do catálogo!
+
+shellhelp
+uk: \nHelp system: \n - use 'filename'\n     this specifies a default file to work with!\n - help\n     this help screen\n - quit\n     exits interactive shell\n - get <number>\n     prints entry number <number>\n - list\n     prints the file\n - list <number>\n     prints first <number> entries\n - list <number>-<number>\n     prints entries from <number> to <number>\n - delete <number>\n     deletes entry <number> from file\n - search 'regexp'\n     prints entries that match with 'regexp'\n - add\n     adds a new entry\n
+pt: "\nSistema de ajuda: \n - use 'nome_ficheiro'\n     Permite especificar o ficheiro com que vai trabalhar!\n - help\n     mostra esta ajuda\n - quit\n     Permite sair da shell interactiva\n - get <n>\n     imprime a entrada número <n>\n - list\n     Lista o catálogo\n - list <n>\n     Imprime as primeiras n entradas\n - list <n1>-<n2>\n     Lista as entradas de n1 a n2\n - delete <n>\n     Apaga a entrada n do catálogo\n - search 'regexp'\n     Imprime as entradas que estão de acordo com a expressão regular 'regexp'\n - add\n     Adiciona uma nova entrada!\n
+
+needfile
+uk: You must specify a file with command 'use'.\n
+pt: Tem de especificar o nome do ficheiro do catálogo com o comando 'use'.\n
+
+unknown
+uk: Command unkown. Use "help" to obtain a list of commands
+pt: Comando desconhecido. Use "help" para obter ajuda
+
+nexist
+uk: Entry does not exist!
+pt: O registo não existe!
+
+ereltoend
+uk: Enter an empty type to end!
+pt: Introduza um tipo de relação vazio para acabar!
+
+reltype
+uk: Relation type (IOF, POF, ABOUT, ...):
+pt: Tipo de relação (IOF, POF, ABOUT, ...):
+
+relterms
+uk: Relation terms (use ";" to separate fields):
+pt: 'Termos em relação (utilize ";" para separar os termos):
+
+insxml
+uk: Insert XML data (an empty line to end):
+pt: Introduza os dados XML (uma linha em branco para acabar):
+
+relnames
+uk: Relation types
+pt: Tipos de relação
+
+terms
+uk: Relation terms (use ";" to separate fields)
+pt: Termos em relação (use o ";" para separa os termos)
+
+rels
+uk: Relations:
+pt: Relações:

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<catalog>
+<entry id="2">
+<title>Another</title>
+ <rels>
+ <rel type="IOF">cat</rel>
+ <rel type="IOF">dog</rel>
+ <rel type="POF">catalog</rel>
+ <rel type="POF">test</rel>
+ </rels>
+</entry>
+</catalog>
